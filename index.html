@@ -16,12 +16,12 @@
         <fieldset>
             <div>
                 <label>Valor Total da Conta</label>
-                <input type="text" name="Valor Total" id="valorTotal">
+                <input type="text" name="Valor Total" id="totalConta">
             </div>
 
             <div>
                 <label>Incluir Taxa de Serviço?</label>
-                <select>
+                <select id="valorAcrescimo">
                     <option value="1">Sim</option>
                     <option value="2">Não</option>
                 </select>
@@ -29,10 +29,12 @@
 
             <div>
                 <label> Quantidade de pagantes:</label>
-                <input type="text" name="Quantidade de pagantes:">
+                <input type="text" name="Quantidade de pagantes:" id="pessoaMesa">
             </div>
+            <input type="submit" name="submit" id="submit">
         </fieldset>
     </form>
+    <script src="app.js"></script>
     
 </body>
 </html>
